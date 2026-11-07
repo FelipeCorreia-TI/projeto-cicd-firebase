@@ -1,0 +1,16 @@
+{
+  "name": "projeto-cicd-firebase",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:firebase": "node test-firebase.js",
+    "test:firebase:local": "node --env-file=.env test-firebase.js",
+    "build": "node scripts/build.js",
+    "build:local": "node --env-file=.env scripts/build.js",
+    "start": "npx serve dist"
+  },
+  "dependencies": {
+    "firebase": "^13.2.0"
+  }
+}
