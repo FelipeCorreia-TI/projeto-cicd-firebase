@@ -3,5 +3,5 @@ export function validarEmail(email) {
 }
 
 export function validarSenha(senha) {
-  return typeof senha === 'string' && senha.length >= 6;
+  return typeof senha === 'string' && senha.length >= 60;
 }
